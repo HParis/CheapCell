@@ -36,7 +36,7 @@ To integrate SnapKit into your Xcode project using Swift Package Manager, add it
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/HParis/CheapCell", .upToNextMajor(from: "0.0.1"))
+    .package(url: "https://github.com/HParis/CheapCell", .branch("main"))
 ]
 ```
 
@@ -76,7 +76,7 @@ class UICollectioViewExample {
 class UITableViewExample {
     // Register cheap cell 
     tableView.registerCheapCell(AView.self)
-        tableView.registerCheapCell(BView.self)
+    tableView.registerCheapCell(BView.self)
 
     // Reuse cheep cell
     let cell = tableView.dequeueReusableCheapCell(for: indexPath) as CollectionCell<AView>
