@@ -30,9 +30,9 @@ CheapCell makes you force on view component without consider cell.
 
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-> Xcode 11+ is required to build SnapKit using Swift Package Manager.
+> Xcode 11+ is required to build CheapCell using Swift Package Manager.
 
-To integrate SnapKit into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
+To integrate CheapCell into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
 ```swift
 dependencies: [
