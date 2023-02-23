@@ -79,8 +79,8 @@ class UITableViewExample {
     tableView.registerCheapCell(BView.self)
 
     // Reuse cheep cell
-    let cell = tableView.dequeueReusableCheapCell(for: indexPath) as CollectionCell<AView>
-    let cell = tableView.dequeueReusableCheapCell(for: indexPath) as CollectionCell<BView>
+    let cell = tableView.dequeueReusableCheapCell(for: indexPath) as TableCell<AView>
+    let cell = tableView.dequeueReusableCheapCell(for: indexPath) as TableCell<BView>
 }
 
 ```
